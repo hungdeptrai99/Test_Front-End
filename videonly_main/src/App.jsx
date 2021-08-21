@@ -1,13 +1,11 @@
 import 'normalize.css'
 import 'src/assets/styles/global.scss'
+import Routes from './Routes'
 
 function App() {
   return (
-    <div>
-      <div className="container">
-        <h2>Tran Gia Hung</h2>
-        <h2>h2</h2>
-      </div>
+    <div className="App">
+      <Routes />
     </div>
   )
 }
