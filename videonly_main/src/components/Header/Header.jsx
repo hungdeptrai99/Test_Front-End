@@ -1,4 +1,5 @@
 import React from 'react'
+import { path } from 'src/constants/path'
 import * as S from './header.style'
 export default function Header() {
   return (
@@ -7,12 +8,12 @@ export default function Header() {
         <S.BgImage src="images/mainbanner.png" alt="" />
         <div className="wide">
           <S.ContainerHeader>
-            <S.Logo to="">
+            <S.Logo to={path.home}>
               <img src="images/videonly-logo.png" alt="" />
             </S.Logo>
             <S.Navbar>
-              <S.Login to="">LOGIN</S.Login>
-              <S.Join to="">JOIN</S.Join>
+              <S.Login to={path.notFound}>LOGIN</S.Login>
+              <S.Join to={path.notFound}>JOIN</S.Join>
             </S.Navbar>
           </S.ContainerHeader>
           <S.TitleHeader>
@@ -21,8 +22,9 @@ export default function Header() {
             <span>템플릿을 만듭니다</span>
           </S.TitleHeader>
           <S.SubHeader>나만의 브랜드를 위한 영상 템플릿을 직접 경험해보세요.</S.SubHeader>
-          <S.ButtonHeader> <span>
-          시작하기  </span> </S.ButtonHeader>
+          <S.ButtonHeader>
+            <span>시작하기 </span>
+          </S.ButtonHeader>
         </div>
       </S.BannerImage>
     </div>
