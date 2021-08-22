@@ -3,18 +3,20 @@ import PropTypes from 'prop-types'
 import * as S from './productTutorial.style'
 import { Link } from 'react-router-dom'
 import { path } from 'src/constants/path'
-ProductTutorial.propTypes = {}
+ProductTutorial.propTypes = {
+  product: PropTypes.object
+}
 
-function ProductTutorial() {
+function ProductTutorial({ product }) {
   return (
     <S.WrapperProduct>
-      <Link to={path.notFound}>
+      <Link to={path.home}>
         <S.ProductTutorial>
-          <S.ProductImage src="images/thumbnail-01.png" alt="" />
-          <S.SubTitle>두번째</S.SubTitle>
-          <S.ImageArrow src="images/arrow-icon.png" alt="" />
+          <S.ProductImage src={product.bgimg} alt="" />
+          <S.SubTitle>{product.sub}</S.SubTitle>
+          <S.ImageArrow src={product.arrow_img} alt="" />
           <S.ProductTitle>
-            <span>내 브랜드에 맞는 </span> <span> 영상 만들기</span>{' '}
+            <span>{product.title1} </span> <span> {product.title2}</span>
           </S.ProductTitle>
         </S.ProductTutorial>
       </Link>

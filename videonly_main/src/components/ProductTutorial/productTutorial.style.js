@@ -6,6 +6,10 @@ export const WrapperProduct = styled.div`
   max-width: 33.33%;
   padding-right: 20px;
   margin: 15px 0;
+  transition: all 0.5s ease;
+  &:hover {
+    transform: scale(1.02);
+  }
 `
 export const ProductTutorial = styled.div`
   position: relative;
@@ -34,7 +38,7 @@ export const ImageArrow = styled.img`
   object-fit: contain;
 `
 export const ProductTitle = styled.div`
-  width: 250px;
+  min-width: 250px;
   position: absolute;
   top: 74px;
   left: 29px;

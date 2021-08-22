@@ -3,8 +3,8 @@ import { path } from 'src/constants/path'
 import * as S from './footer.style'
 export default function Footer() {
   return (
-    <S.Footer>
-      <div className="container">
+    <div className="container">
+      <S.Footer>
         <div className="wide">
           <S.ContainerFooter>
             <S.FooterLeft>
@@ -35,7 +35,7 @@ export default function Footer() {
             </S.FooterRight>
           </S.ContainerFooter>
         </div>
-      </div>
-    </S.Footer>
+      </S.Footer>
+    </div>
   )
 }

@@ -1,15 +1,33 @@
 import React from 'react'
+import { useState } from 'react'
 import ProductExp from '../ProductExp/ProductExp'
 import * as S from './experienced.style'
 export default function Experienced() {
+  const [products] = useState([
+    {
+      image: 'images/icon-01.png',
+      sub: '사용중인 기업',
+      quantity: 41
+    },
+    {
+      image: 'images/icon-02.png',
+      sub: '완료한 템플릿',
+      quantity: 164
+    },
+    {
+      image: 'images/icon-03.png',
+      sub: '체험가능한  템플릿',
+      quantity: 82
+    }
+  ])
   return (
     <S.BackgroundExp>
       <div className="wide">
         <S.TitleExp>체험 가능한 템플릿</S.TitleExp>
         <S.ProductListExp>
-          <ProductExp />
-          <ProductExp />
-          <ProductExp />
+          {products.map((product, index) => (
+            <ProductExp key={index} product={product} />
+          ))}
         </S.ProductListExp>
         <S.SubExp>나에게 맞는 템플릿, 망설이지 말고 지금 직접 체험해보세요!</S.SubExp>
         <S.Button>시작하기</S.Button>

@@ -1,4 +1,3 @@
-import { Link } from 'react-router-dom'
 import styled from 'styled-components'
 
 export const WrapperProduct = styled.div`
@@ -39,7 +38,7 @@ export const TitleProduct = styled.div`
 `
 export const SubProduct = styled.div`
   margin-top: 19px;
-  width: 189px;
+  width: 195px;
   font-size: 18px;
   font-weight: 300;
   font-stretch: normal;
@@ -47,5 +46,4 @@ export const SubProduct = styled.div`
   line-height: 1.33;
   letter-spacing: normal;
   color: #676767;
-
 `

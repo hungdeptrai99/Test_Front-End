@@ -14,6 +14,7 @@ export const TitleEnglish = styled.div`
   text-align: left;
   color: #fa5805;
   margin-bottom: 20px;
+  text-transform: uppercase;
 `
 export const Title = styled.div`
   font-size: 35px;

@@ -3,18 +3,20 @@ import PropTypes from 'prop-types'
 import * as S from './productProcess.style'
 import { path } from 'src/constants/path'
 import { Link } from 'react-router-dom'
-ProductProcess.propTypes = {}
+ProductProcess.propTypes = {
+  product: PropTypes.object
+}
 
-function ProductProcess() {
+function ProductProcess({ product }) {
   return (
     <S.WrapperProduct>
-      <Link to={path.notFound}>
+      <Link to={path.home}>
         <S.ProductProcess>
           <S.ProductImage>
-            <img src="images/big-icon-01.png" alt="" />
+            <img src={product.image} alt="" />
           </S.ProductImage>
-          <S.TitleProduct>이미지 찾기</S.TitleProduct>
-          <S.SubProduct>내 회사에 맞는 이미지를 찾아 정합니다.</S.SubProduct>
+          <S.TitleProduct>{product.title}</S.TitleProduct>
+          <S.SubProduct>{product.subTitle}</S.SubProduct>
         </S.ProductProcess>
       </Link>
     </S.WrapperProduct>

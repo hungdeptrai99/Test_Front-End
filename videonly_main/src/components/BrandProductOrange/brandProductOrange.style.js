@@ -46,6 +46,7 @@ export const Content = styled.div`
   letter-spacing: normal;
   text-align: left;
   color: #fafafc;
+  text-align: left;
 `
 export const Button = styled(ButtonLink)`
   border-radius: 10px;

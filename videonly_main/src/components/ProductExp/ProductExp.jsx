@@ -3,18 +3,20 @@ import PropTypes from 'prop-types'
 import { Link } from 'react-router-dom'
 import { path } from 'src/constants/path'
 import * as S from './productExp.style'
-ProductExp.propTypes = {}
+ProductExp.propTypes = {
+  product: PropTypes.object
+}
 
-function ProductExp() {
+function ProductExp({ product }) {
   return (
     <S.WrapperProduct>
       <Link to={path.notFound}>
         <S.ProductExp>
           <S.ProductImage>
-            <img src="images/icon-01.png" alt="" />
+            <img src={product.image} alt="" />
           </S.ProductImage>
-          <S.SubProduct> 사용중인 기업 </S.SubProduct>
-          <S.Quantity>41</S.Quantity>
+          <S.SubProduct> {product.sub} </S.SubProduct>
+          <S.Quantity>{product.quantity}</S.Quantity>
         </S.ProductExp>
       </Link>
     </S.WrapperProduct>
