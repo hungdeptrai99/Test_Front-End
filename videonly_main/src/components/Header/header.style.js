@@ -42,6 +42,8 @@ export const Login = styled(ButtonLink)`
   line-height: 5.75;
   color: #fff;
   text-transform: uppercase;
+  width: 80px;
+  height: 32px;
 `
 export const Join = styled(ButtonLink)`
   display: flex;
@@ -52,6 +54,8 @@ export const Join = styled(ButtonLink)`
   line-height: 5.75;
   color: #fff;
   text-transform: uppercase;
+  width: 80px;
+  height: 32px;
 `
 
 export const TitleHeader = styled.h1`
