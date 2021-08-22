@@ -1,11 +1,11 @@
-import { ButtonLink } from 'src/assets/styles/ultils'
+import { ButtonLink, colorPrimary, colorSecondary, colorThirdly } from 'src/assets/styles/ultils'
 import styled from 'styled-components'
 
 export const BackgroundProductBrand = styled.div`
   width: 1920px;
   height: 750px;
   padding: 159px 343px 160px 495px;
-  background-color: #fa5805;
+  background-color: ${colorPrimary};
 `
 export const WrapperBrandProduct = styled.div`
   display: flex;
@@ -23,7 +23,7 @@ export const SubTitle = styled.div`
   line-height: 1.88;
   letter-spacing: normal;
   text-align: left;
-  color: #222;
+  color: ${colorThirdly};
   margin-bottom: 20px;
 `
 export const Title = styled.div`
@@ -50,7 +50,7 @@ export const Content = styled.div`
 `
 export const Button = styled(ButtonLink)`
   border-radius: 10px;
-  background-color: #222;
+  background-color: ${colorThirdly};
   font-size: 18px;
   font-weight: 300;
   font-stretch: normal;
@@ -64,25 +64,25 @@ export const Button = styled(ButtonLink)`
   margin-top: 78px;
 `
 export const BackgroundProductBrandWhite = styled.div`
-  background-color: #f9fafb;
+  background-color: ${colorSecondary};
   width: 1920px;
   height: 750px;
   padding: 159px 343px 160px 495px;
 `
 export const SubTitleBottom = styled(SubTitle)`
-  color: #fa5805;
+  color: ${colorPrimary};
   text-align: right;
 `
 export const TitleBottom = styled(Title)`
-  color: #222;
+  color: ${colorThirdly};
   text-align: right;
 `
 export const ContentBottom = styled(Content)`
-  color: #222;
+  color: ${colorThirdly};
   text-align: right;
 `
 export const ButtonBottom = styled(Button)`
-  background-color: #fa5805;
+  background-color: ${colorPrimary};
   position: absolute;
   right: 0;
 `

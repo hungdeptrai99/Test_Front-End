@@ -1,3 +1,4 @@
+import { colorThirdly } from 'src/assets/styles/ultils'
 import styled from 'styled-components'
 
 export const Container = styled.div`
@@ -11,7 +12,7 @@ export const TitleSample = styled.h2`
   font-style: normal;
   line-height: 1.29;
   letter-spacing: normal;
-  color: #222;
+  color: ${colorThirdly};
 `
 export const SubSample = styled.div`
   margin-top: 29px;
@@ -23,7 +24,7 @@ export const SubSample = styled.div`
   font-style: normal;
   line-height: 1.5;
   letter-spacing: normal;
-  color: #222;
+  color: ${colorThirdly};
   margin-bottom: 40px;
 `
 export const ProductList = styled.div`

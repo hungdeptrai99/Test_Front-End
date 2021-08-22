@@ -12,8 +12,8 @@ export default function Header() {
               <img src="images/videonly-logo.png" alt="" />
             </S.Logo>
             <S.Navbar>
-              <S.Login to={path.notFound}>LOGIN</S.Login>
-              <S.Join to={path.notFound}>JOIN</S.Join>
+              <S.Login to={path.home}>LOGIN</S.Login>
+              <S.Join to={path.home}>JOIN</S.Join>
             </S.Navbar>
           </S.ContainerHeader>
           <S.TitleHeader>

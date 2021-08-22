@@ -1,7 +1,8 @@
+import { colorPrimary, colorSecondary, colorThirdly } from 'src/assets/styles/ultils'
 import styled from 'styled-components'
 
 export const Container = styled.div`
-  background-color: #f9fafb;
+  background-color: ${colorSecondary};
   padding: 81px 0;
 `
 export const TitleEnglish = styled.div`
@@ -12,7 +13,7 @@ export const TitleEnglish = styled.div`
   line-height: 1.88;
   letter-spacing: normal;
   text-align: left;
-  color: #fa5805;
+  color: ${colorPrimary};
   margin-bottom: 20px;
   text-transform: uppercase;
 `
@@ -24,7 +25,7 @@ export const Title = styled.div`
   line-height: 0.86;
   letter-spacing: normal;
   text-align: left;
-  color: #222;
+  color: ${colorThirdly};
   margin-bottom: 26px;
 `
 export const SubTitle = styled.div`
@@ -37,7 +38,7 @@ export const SubTitle = styled.div`
   line-height: 1.5;
   letter-spacing: normal;
   text-align: left;
-  color: #222;
+  color: ${colorThirdly};
   margin-bottom: 39px;
 `
 export const ProductList = styled.div`

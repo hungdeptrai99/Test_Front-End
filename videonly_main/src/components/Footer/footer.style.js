@@ -1,8 +1,9 @@
 import { Link } from 'react-router-dom'
+import { colorSecondary } from 'src/assets/styles/ultils'
 import styled from 'styled-components'
 
 export const Footer = styled.footer`
-  background-color: #f9fafb;
+  background-color: ${colorSecondary};
   min-width: max-content;
 `
 export const ContainerFooter = styled.div`

@@ -1,3 +1,4 @@
+import { colorPrimary } from 'src/assets/styles/ultils'
 import styled from 'styled-components'
 
 export const WrapperProduct = styled.div`
@@ -34,7 +35,7 @@ export const TitleProduct = styled.div`
   line-height: 1.38;
   letter-spacing: normal;
   text-align: center;
-  color: #fa5805;
+  color: ${colorPrimary};
 `
 export const SubProduct = styled.div`
   margin-top: 19px;

@@ -96,7 +96,6 @@ export const ButtonHeader = styled(ButtonLink)`
   width: 200px;
   height: 52px;
   border-radius: 10px;
-  background-color: #fa5805;
   display: flex;
   align-items: center;
   justify-content: center;
