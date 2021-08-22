@@ -18,21 +18,16 @@ export const BrandProductInfo = styled.div`
 export const SubTitle = styled.div`
   font-size: 16px;
   font-weight: 600;
-  font-stretch: normal;
-  font-style: normal;
   line-height: 1.88;
-  letter-spacing: normal;
   text-align: left;
   color: ${colorThirdly};
   margin-bottom: 20px;
+  text-transform: uppercase;
 `
 export const Title = styled.div`
   font-size: 35px;
   font-weight: 900;
-  font-stretch: normal;
-  font-style: normal;
   line-height: 0.86;
-  letter-spacing: normal;
   text-align: left;
   color: #fafafc;
   margin-bottom: 30px;
@@ -40,10 +35,7 @@ export const Title = styled.div`
 export const Content = styled.div`
   font-size: 20px;
   font-weight: 300;
-  font-stretch: normal;
-  font-style: normal;
   line-height: 1.5;
-  letter-spacing: normal;
   text-align: left;
   color: #fafafc;
   text-align: left;
@@ -53,8 +45,6 @@ export const Button = styled(ButtonLink)`
   background-color: ${colorThirdly};
   font-size: 18px;
   font-weight: 300;
-  font-stretch: normal;
-  font-style: normal;
   line-height: 3.83;
   letter-spacing: -0.36px;
   text-align: center;
@@ -62,6 +52,10 @@ export const Button = styled(ButtonLink)`
   width: 200px;
   height: 52px;
   margin-top: 78px;
+  transition: all 0.5s ease;
+  &:hover {
+    background-color: rgba(0, 0, 0, 0.7);
+  }
 `
 export const BackgroundProductBrandWhite = styled.div`
   background-color: ${colorSecondary};

@@ -30,10 +30,7 @@ export const TitleProduct = styled.div`
   margin-top: 15px;
   font-size: 24px;
   font-weight: 500;
-  font-stretch: normal;
-  font-style: normal;
   line-height: 1.38;
-  letter-spacing: normal;
   text-align: center;
   color: ${colorPrimary};
 `
@@ -42,9 +39,6 @@ export const SubProduct = styled.div`
   width: 195px;
   font-size: 18px;
   font-weight: 300;
-  font-stretch: normal;
-  font-style: normal;
   line-height: 1.33;
-  letter-spacing: normal;
   color: #676767;
 `

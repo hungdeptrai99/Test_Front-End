@@ -1,3 +1,4 @@
+import { colorThirdly } from 'src/assets/styles/ultils'
 import styled from 'styled-components'
 
 export const WrapperProduct = styled.div`
@@ -24,10 +25,7 @@ export const SubTitle = styled.div`
   left: 28px;
   font-size: 16px;
   font-weight: 500;
-  font-stretch: normal;
-  font-style: normal;
   line-height: 1.63;
-  letter-spacing: normal;
   text-align: left;
   color: #222;
 `
@@ -44,12 +42,9 @@ export const ProductTitle = styled.div`
   left: 29px;
   font-size: 30px;
   font-weight: 900;
-  font-stretch: normal;
-  font-style: normal;
   line-height: 1.33;
-  letter-spacing: normal;
   text-align: left;
-  color: #222;
+  color: ${colorThirdly};
   span {
     display: block;
   }

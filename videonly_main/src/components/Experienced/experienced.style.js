@@ -10,10 +10,7 @@ export const BackgroundExp = styled.div`
 export const TitleExp = styled.div`
   font-size: 35px;
   font-weight: 900;
-  font-stretch: normal;
-  font-style: normal;
   line-height: 1.29;
-  letter-spacing: normal;
   text-align: center;
   color: #fff;
   padding-top: 120px;
@@ -27,10 +24,7 @@ export const ProductListExp = styled.div`
 export const SubExp = styled.div`
   font-size: 20px;
   font-weight: 300;
-  font-stretch: normal;
-  font-style: normal;
   line-height: 1.5;
-  letter-spacing: normal;
   text-align: center;
   color: #fff;
   margin-top: 80px;
@@ -43,8 +37,6 @@ export const Button = styled(ButtonLink)`
   background-color: ${colorPrimary};
   font-size: 17px;
   font-weight: 300;
-  font-stretch: normal;
-  font-style: normal;
   line-height: 4.06;
   letter-spacing: -0.34px;
   text-align: center;
@@ -71,22 +63,15 @@ export const BackgroundBottomTitle = styled.div`
   margin: 0 0 18px;
   font-size: 35px;
   font-weight: 500;
-  font-stretch: normal;
-  font-style: normal;
   line-height: 0.86;
-  letter-spacing: normal;
   text-align: center;
   color: #fff;
 `
 export const BackgroundBottomSub = styled.div`
   margin: 18px 31px 0 29px;
-  font-family: NotoSansCJKkr;
   font-size: 20px;
   font-weight: 300;
-  font-stretch: normal;
-  font-style: normal;
   line-height: 1.5;
-  letter-spacing: normal;
   text-align: center;
   color: #fff;
   display: flex;

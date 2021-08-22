@@ -22,10 +22,7 @@ export const FooterLeftTitle = styled.div`
   justify-content: space-between;
   font-size: 14px;
   font-weight: bold;
-  font-stretch: normal;
-  font-style: normal;
   line-height: 1.71;
-  letter-spacing: normal;
   text-align: left;
   color: #333;
   margin-bottom: 19px;
@@ -34,21 +31,14 @@ export const FooterLeftSub = styled.div`
   width: 365px;
   font-size: 14px;
   font-weight: 300;
-  font-stretch: normal;
-  font-style: normal;
   line-height: 1.71;
-  letter-spacing: normal;
   text-align: left;
   color: #717c89;
   margin-bottom: 30px;
 `
 export const FooterLeftCoppyRight = styled.div`
   font-size: 12px;
-  font-weight: normal;
-  font-stretch: normal;
-  font-style: normal;
   line-height: 2;
-  letter-spacing: normal;
   text-align: left;
   color: #717c89;
 `

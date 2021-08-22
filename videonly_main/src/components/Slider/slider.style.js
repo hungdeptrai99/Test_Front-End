@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom'
+import { colorThirdly } from 'src/assets/styles/ultils'
 import styled from 'styled-components'
 
 export const Container = styled.div`
@@ -13,22 +14,16 @@ export const SliderInfo = styled.div`
 export const Title = styled.div`
   font-size: 20px;
   font-weight: 900;
-  font-stretch: normal;
-  font-style: normal;
   line-height: 1.25;
-  letter-spacing: normal;
   text-align: left;
   color: #333;
 `
 export const More = styled(Link)`
   font-size: 12px;
   font-weight: 900;
-  font-stretch: normal;
-  font-style: normal;
   line-height: 2.08;
-  letter-spacing: normal;
   text-align: right;
-  color: #222;
+  color: ${colorThirdly};
   display: flex;
   justify-content: center;
   align-items: center;

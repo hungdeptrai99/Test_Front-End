@@ -1,3 +1,4 @@
+import { colorThirdly } from 'src/assets/styles/ultils'
 import styled from 'styled-components'
 
 export const ProductExp = styled.div`
@@ -22,12 +23,9 @@ export const WrapperProduct = styled.div`
 export const Quantity = styled.div`
   font-size: 80px;
   font-weight: 500;
-  font-stretch: normal;
-  font-style: normal;
   line-height: 0.56;
-  letter-spacing: normal;
   text-align: center;
-  color: #222;
+  color: ${colorThirdly};
   margin-bottom: 58px;
 `
 export const ProductImage = styled.div`
@@ -38,10 +36,7 @@ export const SubProduct = styled.div`
   margin: 7px 0 42px;
   font-size: 20px;
   font-weight: 500;
-  font-stretch: normal;
-  font-style: normal;
   line-height: 1.5;
-  letter-spacing: normal;
   text-align: center;
-  color: #222;
+  color: ${colorThirdly};
 `

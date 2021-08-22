@@ -12,6 +12,7 @@ export const ButtonLink = styled(Link)`
   margin: 0 0 0 10px;
   border-radius: 6px;
   background-color: ${colorPrimary};
+  transition: all 0.5s ease;
   &:hover {
     background-color: rgba(250, 88, 5, 0.8);
   }
