@@ -20,16 +20,16 @@ export default function Footer() {
               <S.FooterLeftCoppyRight>Copyright© VIDIONLY All rights reserved.</S.FooterLeftCoppyRight>
             </S.FooterLeft>
             <S.FooterRight>
-              <S.FooterRightBox to={path.notFound}>
+              <S.FooterRightBox to={path.home}>
                 <img src="images/footer-sns-icon-1.png" alt="" />
               </S.FooterRightBox>
-              <S.FooterRightBox to={path.notFound}>
+              <S.FooterRightBox to={path.home}>
                 <img src="images/footer-sns-icon-2.png" alt="" />
               </S.FooterRightBox>
-              <S.FooterRightBox to={path.notFound}>
+              <S.FooterRightBox to={path.home}>
                 <img src="images/footer-sns-icon-3.png" alt="" />
               </S.FooterRightBox>
-              <S.FooterRightBox to={path.notFound}>
+              <S.FooterRightBox to={path.home}>
                 <img src="images/footer-sns-icon-4.png" alt="" />
               </S.FooterRightBox>
             </S.FooterRight>

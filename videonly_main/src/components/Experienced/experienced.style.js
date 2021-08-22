@@ -1,8 +1,8 @@
-import { ButtonLink } from 'src/assets/styles/ultils'
+import { ButtonLink, colorPrimary, colorThirdly } from 'src/assets/styles/ultils'
 import styled from 'styled-components'
 
 export const BackgroundExp = styled.div`
-  background-color: #222;
+  background-color: ${colorThirdly};
   width: 100%;
   min-width: max-content;
   text-align: center;
@@ -40,7 +40,7 @@ export const Button = styled(ButtonLink)`
   height: 52px;
   margin: 29px auto 120px auto;
   border-radius: 10px;
-  background-color: #fa5805;
+  background-color: ${colorPrimary};
   font-size: 17px;
   font-weight: 300;
   font-stretch: normal;

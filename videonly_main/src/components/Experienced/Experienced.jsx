@@ -1,5 +1,6 @@
 import React from 'react'
 import { useState } from 'react'
+import { path } from 'src/constants/path'
 import ProductExp from '../ProductExp/ProductExp'
 import * as S from './experienced.style'
 export default function Experienced() {
@@ -30,7 +31,7 @@ export default function Experienced() {
           ))}
         </S.ProductListExp>
         <S.SubExp>나에게 맞는 템플릿, 망설이지 말고 지금 직접 체험해보세요!</S.SubExp>
-        <S.Button>시작하기</S.Button>
+        <S.Button to={path.home}>시작하기</S.Button>
       </div>
       <S.BackgroundBottom>
         <img src="images/longbanner-02.png" alt="" />

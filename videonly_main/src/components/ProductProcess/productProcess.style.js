@@ -1,4 +1,4 @@
-import { colorPrimary } from 'src/assets/styles/ultils'
+import { colorPrimary, colorSecondary } from 'src/assets/styles/ultils'
 import styled from 'styled-components'
 
 export const WrapperProduct = styled.div`
@@ -9,7 +9,7 @@ export const WrapperProduct = styled.div`
   margin: 15px 0;
 `
 export const ProductProcess = styled.div`
-  background-color: #f9fafb;
+  background-color: ${colorSecondary};
   display: flex;
   justify-content: center;
   align-items: center;

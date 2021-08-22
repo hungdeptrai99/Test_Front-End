@@ -22,7 +22,7 @@ export default function Header() {
             <span>템플릿을 만듭니다</span>
           </S.TitleHeader>
           <S.SubHeader>나만의 브랜드를 위한 영상 템플릿을 직접 경험해보세요.</S.SubHeader>
-          <S.ButtonHeader>
+          <S.ButtonHeader to={path.home}>
             <span>시작하기 </span>
           </S.ButtonHeader>
         </div>
